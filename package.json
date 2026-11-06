@@ -1,0 +1,8 @@
+{
+  "name": "ampadis-store",
+  "version": "1.0.0",
+  "description": "Demo store: plain HTML/CSS/JS frontend + zero-dependency Node backend",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "license": "MIT"
+}

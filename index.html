@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ampadi's Store</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="top">
+      <h1>Ampadi's Store</h1>
+      <p class="badge" id="badge">Connecting…</p>
+    </header>
+
+    <section class="grid" id="products" aria-label="Products"></section>
+
+    <section class="cart" aria-labelledby="cart-title">
+      <h2 id="cart-title">Cart</h2>
+      <div id="cart-body"></div>
+      <div class="cart-foot">
+        <p class="total" id="total" hidden></p>
+        <button class="btn" id="place-order" disabled>Place order</button>
+      </div>
+      <p class="msg" id="msg" role="status" aria-live="polite" hidden></p>
+    </section>
+
+    <p class="foot">Demo store by Ampadi. No real payments or orders.</p>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
